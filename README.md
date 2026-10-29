@@ -94,6 +94,17 @@ and their reasons, fighter pages, any-matchup predictions, the simulator with an
 and a plain-English model page. A card review grades the model on the last finished card. The app code isn't
 in this repository yet.
 
+### Screenshots
+
+| | |
+|---|---|
+| **Next card**: every bout of the upcoming card with a win probability and the top reasons behind the pick | **Predict**: any two fighters, with each factor's push on the prediction and the most likely way it ends |
+| ![Next card](docs/screenshots/next_card.png) | ![Predict](docs/screenshots/predict.png) |
+| **Simulate**: 10,000 simulated fights, plus an animated replay of one of them (here paused in round 3) | **Card review**: the last finished card graded against the results (UFC 333: 8 of 14) |
+| ![Simulate](docs/screenshots/simulate.png) | ![Card review](docs/screenshots/card_review.png) |
+| **Fighter page**: record, Elo and pound-for-pound rank, stats as division percentiles, rating over time | |
+| ![Fighter page](docs/screenshots/fighter.png) | |
+
 ## Setup
 **Conda (recommended for notebooks):**
 ```bash
