@@ -1,0 +1,23 @@
+# Conda environment for the UFC project.
+#   conda env create -f environment.yml      (first time)
+#   conda env update -f environment.yml      (after changes)
+name: ufc
+channels:
+  - defaults
+dependencies:
+  - python=3.12
+  - pandas>=2.2
+  - numpy
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - pyarrow
+  - jupyterlab
+  - ipywidgets
+  - ipykernel
+  - nbconvert
+  - fastapi
+  - uvicorn
+  - httpx
+  - requests
+  - pytest

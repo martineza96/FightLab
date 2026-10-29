@@ -1,0 +1,27 @@
+# .gitignore — files git should never track. One pattern per line; a trailing "/" means a folder.
+
+# --- Environments, installs and build output (huge, and rebuilt from requirements) ---
+.venv/
+node_modules/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+
+# --- Kept on this computer only, not part of the public repo (yet) ---
+# The Fight Lab web app: FastAPI backend + Ionic React front end
+api/
+app/
+tests/test_api.py
+Makefile
+# The styled PDF of the project breakdown, and the tooling that builds it
+docs/Fight_Lab_Project_Breakdown.pdf
+docs/build/
+# Scratch notebook
+Untitled.ipynb
+
+# --- Caches the code regenerates on its own ---
+data/processed/cache/
+data/processed/models/
+data/processed/api/
